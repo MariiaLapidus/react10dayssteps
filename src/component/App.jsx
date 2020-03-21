@@ -23,7 +23,7 @@ import MovieTabs from "./MovieTabs"
             this.state = {
                 movies: [], //moviesData,заполняется фильмами с  АРI
                 moviesWillWatch: [],
-                sort_by: "revenue.desc"
+                sort_by: "popularity.desc"
             };
         }
 ///////--------------------- получение фильмов с АРI
